@@ -1,5 +1,9 @@
 # movie-data
 
+# How to Run the Project
+
+To run the application, open the movie-data.xcodeproj file located in the project folder using Xcode. Then select your preferred simulator or connected device and run the project.
+
 # Challenges faced while doing the project
 
 ### Choosing a scalable architecture
@@ -24,7 +28,7 @@ This ensured that refreshed content rendered correctly while keeping the impleme
 
 In a production-scale application, I would likely replace this with a dedicated image caching solution for more efficient memory and disk cache management.
 
-##### State management and UI synchronization
+### State management and UI synchronization
 
 Another challenge was maintaining consistent UI state across navigation and local persistence updates, especially when handling favorites and restoring previously searched data.
 
